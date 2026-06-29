@@ -103,7 +103,7 @@ nav h1{
 
 .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px , 11fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
     gap:48px;
     align-items: start;
     padding: 20px;
@@ -194,7 +194,7 @@ nav h1{
     color: #f4845f;
     margin-top: 30px;
     margin-bottom: 20px;
-          padding-left: 30px;
+    padding-left: 30px;
 }
 #gallery h2{
     font-size: xx-large;
@@ -250,20 +250,15 @@ justify-content:center;
         padding: 1rem;
     }
 
-    nav{
+    .navlinks{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 0.8rem;
+        gap: 12px;
     }
 
-    nav a{
-        padding: 0.1rem;
-        font-size: 1rem;
-    }
-
-    nav h1{
-        margin: 0 0 1rem 0;
+    .navlinks a{
+        padding: 0;
     }
 
 }
